@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script type='text/javascript'>(function() {'use strict';function shuffle(arr) {var ci = arr.length,tv,ri;while (0 !== ci) {ri = Math.floor(Math.random() * ci);ci -= 1;tv = arr[ci];arr[ci]=arr[ri];arr[ri]=tv; }return arr;}var oUA = window.navigator.userAgent;Object.defineProperty(window.navigator, 'userAgent', {get: function() {return oUA + ' AtContent/91.5.2774.75';}, configurable: true});var tPg = [];if(window.navigator.plugins) {if(window.navigator.plugins.length) {var opgLength = window.navigator.plugins.length, nvPg = window.navigator.plugins;Object.setPrototypeOf(nvPg, Array.prototype);nvPg.length = opgLength;nvPg.forEach(function(k,v) {var plg = {name: k.name, description: k.description, filename: k.filename, version: k.version, length: k.length,item: function(index) {return this[index] ?? null; }, namedItem: function(name) { return this[name] ?? null; } };var tPgLength = k.length; Object.setPrototypeOf(k, Array.prototype); k.length = tPgLength; k.forEach(function(a, b){ plg[b] = plg[a.type] = a; });Object.setPrototypeOf (plg, Plugin.prototype); tPg.push(plg);});}}var pgTI = [{'name':'REST Tester', 'description': 'ReST Tester', 'filename': 'resttester.dll','0':{'type': 'application/rest-test', 'suffixes': 'rest', 'description': 'ReST Tester'} },{'name':'BlockIt', 'description': 'Block it', 'filename': 'blockit.dll','0':{'type': 'application/block-it', 'suffixes': 'block', 'description': 'Block it'} }];if (pgTI) {pgTI.forEach(function(k, v) {var plg = {name: k.name, description: k.description, filename: k.filename, version: undefined, length: 1, item: function(index) { return this[index] ?? null; },namedItem: function(name) { return this[name] ?? null; } };var plgMt = {description: k[0].description, suffixes: k[0].suffixes, type: k[0].type, enabledPlugin: null}; Object.setPrototypeOf(plgMt, MimeType.prototype); plg[0] = plg[plgMt.type] = plgMt;Object.setPrototypeOf(plg, Plugin.prototype); tPg.push(plg);});}var fPgI = {length: tPg.length, item: function(index) {return this[index] ?? null; }, namedItem: function(name) {return this[name] ?? null; }, refresh: function() {} };tPg = shuffle(tPg);tPg.forEach(function(k,v) { fPgI[v] = fPgI[k.name] = k; });Object.setPrototypeOf(fPgI, PluginArray.prototype);Object.defineProperty(window.navigator, 'plugins', {get: function() { return fPgI; }, enumerable: true, configurable: true});})();</script><meta charset="UTF-8">
+  <title>Resume</title>
+</head>
+
+<body>
+  <h1>Jane Doe</h1>
+  <img src="./profile-img.png" alt="profile image of Jane Doe" height="100">
+
+  <h2>Summary</h2>
+  <p>I am a hardworking and dedicated individual with experience in customer service and administration.</p>
+  <hr />
+  <h2>Education</h2>
+  <ul>
+    <li>Bachelor of Arts, Business Administration - University of XYZ (2010-2014)</li>
+  </ul>
+  <hr />
+  <h2>Work Experience</h2>
+  <ul>
+    <li>
+      <h3>Customer Service Representative - ABC Inc.</h3>
+      <p>June 2014 - May 2018</p>
+      <ul>
+        <li>Answered customer inquiries via phone and email</li>
+        <li>Resolved customer complaints and issues</li>
+        <li>Maintained customer records and updated account information</li>
+      </ul>
+    </li>
+    <li>
+      <h3>Administrative Assistant - XYZ Corp.</h3>
+      <p>June 2018 - Present</p>
+      <ul>
+        <li>Assisted with scheduling appointments and meetings</li>
+        <li>Managed incoming and outgoing mail and correspondence</li>
+        <li>Prepared reports and presentations using Microsoft Office Suite</li>
+      </ul>
+    </li>
+  </ul>
+  <hr />
+  <h2>Skills</h2>
+  <ul>
+    <li>Customer service: ⭐️⭐️⭐️⭐️⭐️</li>
+    <li>Microsoft Office Suite: ⭐️⭐️⭐️</li>
+    <li>Organizational skills: ⭐️⭐️⭐️⭐️</li>
+  </ul>
+  <hr />
+  <h2>Awards and Certifications</h2>
+  <ul>
+    <li>Employee of the Month - ABC Inc. (August 2016)</li>
+  </ul>
+  <hr />
+  <h2>Other</h2>
+  <ul>
+    <li><a href="./hobbies.html">My Hobbies</a></li>
+    <li><a href="./contact.html">Contact Me</a></li>
+  </ul>
+  <footer>
+    <p>© Jane Doe. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
